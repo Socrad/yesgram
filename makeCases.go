@@ -4,7 +4,7 @@ import (
 	"github.com/Socrad/mathlogic"
 )
 
-// 모든 라인에 대한 경우의 수를 얻는다.
+// 모든 라인에 대하여 가능한 모든 케이스를 얻는다.
 func getCases(Hints [][]int, lineSize int) [][][]int {
 	allCases := [][][]int{}
 	for _, Hint := range Hints {

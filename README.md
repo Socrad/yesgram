@@ -5,7 +5,7 @@ Example main.go
 
 	package main
 	
-	import "github.com/Socrad/yesgram/yesgram"
+	import "github.com/Socrad/yesgram"
 	
 	func main() {
 

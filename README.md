@@ -1,4 +1,4 @@
-Package to solve the nonograms (= picross = griddlers)
+Package to solve nonograms (= picross = griddlers)
 
 Example main.go
 

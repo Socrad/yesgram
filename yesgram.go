@@ -30,12 +30,9 @@ func NewGame(rowHints, columnHints [][]int) game {
 */
 func (g *game) Solve() {
 	isComplete := true
-	counter := 0
 	for isComplete {
 		isComplete = g.conjunctionCheck()
-		counter++
 	}
-	fmt.Println("conjunctionCheck", counter, "회 시행했습니다.")
 }
 
 // 보드상태를 보여준다

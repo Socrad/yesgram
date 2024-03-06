@@ -52,6 +52,7 @@ func (g *game) ShowBoard() {
 	}
 }
 
+// 확인용 기능
 func (g *game) ShowGameStatus() {
 	rowCasesCounter := 0
 	columnCasesCounter := 0

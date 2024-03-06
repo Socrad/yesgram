@@ -4,6 +4,16 @@ import (
 	"github.com/Socrad/mathlogic"
 )
 
+// 모든 라인에 대한 경우의 수를 얻는다.
+func getCases(Hints [][]int, lineSize int) [][][]int {
+	allCases := [][][]int{}
+	for _, Hint := range Hints {
+		cases := getLineStateCases(Hint, lineSize)
+		allCases = append(allCases, cases)
+	}
+	return allCases
+}
+
 /*
 	한줄의 타일의 상태에 대한 모든 케이스를 얻는다.
 
